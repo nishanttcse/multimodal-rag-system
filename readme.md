@@ -37,34 +37,26 @@ multimodal-rag-system/
 │ └── qatar.pdf # Input document
 │── vector_store/ # FAISS storage
 
-yaml
-Copy code
 
----
 
 ## 📦 Installation
 
-```bash
 git clone https://github.com/nishanttcse/multimodal-rag-system
 cd multimodal-rag-system
 python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 🏗️ Build Vector Store
-bash
-Copy code
+
 python ingest.py
 ▶️ Run FastAPI backend
-bash
-Copy code
+
 uvicorn app_fastapi:app --reload
 🎨 Run Gradio UI
-bash
-Copy code
+
 python ui_gradio.py
 🌐 Run Streamlit UI
-bash
-Copy code
+
 streamlit run ui_streamlit.py
 📹 Demo Video
 See video_script.txt for the exact recording flow.
@@ -75,16 +67,12 @@ See technical_report.pdf (included in this repo).
 🤝 Contributing
 Pull requests are welcome!
 
-yaml
-Copy code
-
 ---
 
 # ✅ **5. Git Commands to Upload the Project**
 
 Run these EXACT commands inside your `multimodal-rag-system` folder:
 
-```bash
 git init
 git add .
 git commit -m "Initial commit: Multimodal RAG System with ingestion, FAISS, FastAPI, Gradio, Streamlit, report, and scripts"
