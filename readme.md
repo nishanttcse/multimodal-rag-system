@@ -45,7 +45,7 @@ Copy code
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/multimodal-rag-system
+git clone https://github.com/nishanttcse/multimodal-rag-system
 cd multimodal-rag-system
 python -m venv venv
 venv\Scripts\activate   # Windows
@@ -89,5 +89,5 @@ git init
 git add .
 git commit -m "Initial commit: Multimodal RAG System with ingestion, FAISS, FastAPI, Gradio, Streamlit, report, and scripts"
 git branch -M main
-git remote add origin https://github.com/<your-username>/multimodal-rag-system.git
+git remote add origin https://github.com/nishanttcse/multimodal-rag-system.git
 git push -u origin main
