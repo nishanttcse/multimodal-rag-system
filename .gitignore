@@ -1,0 +1,25 @@
+# Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Virtual environment
+venv/
+env/
+
+# FAISS index files
+vector_store/
+*.faiss
+*.index
+
+# Environment variables
+.env
+
+# Cache
+.cache/
+*.log
+
+# VS Code
+.vscode/

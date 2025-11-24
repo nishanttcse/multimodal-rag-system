@@ -1,0 +1,15 @@
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+pypdf
+pdf2image
+pytesseract
+opencv-python
+pillow
+python-multipart
+fastapi
+uvicorn
+gradio
+pdfplumber
+langchain-text-splitters
